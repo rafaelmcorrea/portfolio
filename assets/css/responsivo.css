@@ -1,0 +1,63 @@
+/* inicio Responsivo */
+@media(max-width: 768px){
+    .container{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 100;
+    }
+    #cabecalho .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: var(--cor1);
+        padding-top: 80px;
+        text-align: center;
+        display: none;
+    }
+    #cabecalho .menu.active{
+        left: 0;
+    }
+    #cabecalho .menu li{
+        display: block;
+    }
+    #cabecalho .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 2.5rem;
+    }
+    #home .home .texto-2{
+        font-size: 7rem;
+    }
+    #home .home .texto-3{
+        font-size: 3.5rem;
+    }
+    #home .home a{
+        font-size: 2.5rem;
+        padding: 9px 20px;
+    }
+    #sobre-mim .sobre-mim .coluna{
+        width: 50%;
+    }
+}
+
+@media(max-width: 425px){
+    #home .home {
+        margin: auto 0;
+    }
+    #home .home .texto-2{
+        font-size: 5rem;
+    }
+    #home .home .texto-3{
+        font-size: 3rem;
+    }
+    #home .home a{
+        font-size: 2rem;
+        padding: 7px 22px;
+    }
+}
+
+/* Final Responsivo */
